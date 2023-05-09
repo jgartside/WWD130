@@ -1,0 +1,43 @@
+body{
+    background-color: #fca6c9;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h1:hover{
+    color: black;
+}
+ol{
+    width: 350px;
+    text-align: left;
+    margin: 0 auto;
+}
+img{
+    margin-top: 20px;
+    width: 125px;
+}
+.white{
+    color: white;
+}
+.block{
+    font-size: 25px;
+    width: 225px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.title{
+    margin: 0;
+    margin-top: 30px;
+}
+.church{
+    margin: 0 auto;
+    width: 325px;
+}
+.quote{
+    font-size: 15px;
+    width: 425px;
+    margin: 0 auto;
+}
