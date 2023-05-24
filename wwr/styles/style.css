@@ -14,6 +14,11 @@ nav a{
 }
 .button-box{
     text-align: center;
+    background-color: #e0872e;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 main section{
     text-align: center;
@@ -58,11 +63,16 @@ footer p a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
+.join{
+    background-color: white;
+    width: 150ps;
+    color: #000000;
+}
 .book:hover{
-    color: #e0872e;
+    color: #000000;
 }
 .join:hover{
-    color: #72cded
+    color: #e0872e;
 }
 .msg{
     background-color: #e0872e;
@@ -98,6 +108,7 @@ h2 {
 }
 h1 {
     font-family: Sigmar, Helvetica, sans-serif;
+    text-align: center;
 }
 #logo_link{
     padding-top: 5px;
@@ -116,7 +127,6 @@ footer .social img{
 }
 .card-img {
     border: 10px solid #000000;
-}
 }
 main section img{
     box-sizing: border-box;
