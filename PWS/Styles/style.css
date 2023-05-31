@@ -1,0 +1,26 @@
+#logo_link{
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-top: 10px;
+    float: left;
+}
+header{
+    background-color: #cbb67d;
+}
+nav a{
+    color: #105284;
+    text-align: center;
+    padding: 35px;
+}
+nav a:hover{
+    color: white;
+}
+.headline{
+    color: #105284;
+    font-size: 90px;
+    margin-bottom: 5px;
+    margin-left: 120px;
+    font-family: 'Brush Script MT', cursive;
+}
