@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 #logo_link{
     padding: 10px;
 }
@@ -23,4 +24,16 @@ nav a:hover{
     margin-bottom: 5px;
     margin-left: 120px;
     font-family: 'Brush Script MT', cursive;
+}
+.home{
+    width: 400px;
+    margin: 10px;
+    float: left;
+}
+.intro{
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 50px;
+}
+footer{
+    background-color: #cbb67d;
 }
