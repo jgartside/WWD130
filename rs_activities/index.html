@@ -16,13 +16,33 @@
             <h1 class = headline>Savage Mill Ward Relief Society</h1>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="upcoming_activities.html">Upcoming Activities</a>
                 <a href="past_activities.html">Past Activities</a>
+                <a href="upcoming_activities.html">Upcoming Activities</a>
             </nav>
         </header>
     </div>
     <main>
-        <img src="./Images/jun_sisters_1.jpg" alt="sister at an activity" class="home">
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./Images/mar_sisters_2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./Images/feb_sisters_1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./Images/aug_temple_sisters.jpg" style="width:100%">
+    </div>
+  
+  </div>
+  
         <p class="intro">The purpose of Relief Society is to save souls and relieve suffering. 
             To help accomplish this purpose, the Savage Mill Ward is planning activities monthly. 
             These activities will happen at 7:00 pm, the first Thursday of every month. 
@@ -42,4 +62,20 @@
         <p class="site"><a href="./site-plan.html">Site Plan</a></p>
     </footer>
 </body>
+<script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 </html>
