@@ -76,7 +76,7 @@ footer p{
     font-family: 'Brush Script MT', cursive, Helvetica, sans-serf;
 }
 .dec{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 2/4;
     width: 200px;
     margin: 0;
@@ -87,13 +87,13 @@ footer p{
 }
 .dec_program{
     width: 200px;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 2/4;
-    margin-left: 25px;
+    float: right;
     margin-top: 25px;
 }
 .jan{
-    grid-column: 3/4;
+    grid-column: 4/5;
     grid-row: 2/4;
     width: 200px;
     margin: 0;
@@ -105,13 +105,14 @@ footer p{
 }
 .jan_program{
     width: 150px;
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 2/4;
-    margin-left: 25px;
+    float: right;
     margin-top: 25px;
+    margin-left: 25px;
 }
 .feb{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 4/6;
     width: 200px;
     margin: 0;
@@ -122,20 +123,20 @@ footer p{
 }
 .feb_invite{
     width: 150px;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 4/6;
     margin-top: 15px;
     margin-left: 25px;
 }
 .feb_decor{
     width: 150px;
-    grid-column: 3/4;
+    grid-column: 4/5;
     grid-row: 4/6;
     margin-top: 15px;
 }
 .feb_sisters{
     width: 200px;
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 4/6;
     margin-top: 15px;
 }
@@ -177,36 +178,40 @@ footer p{
     margin-right: 25px;
 }
 .apr{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 8/10;
     width: 200px;
     margin: 0;
+    margin-top: 25px;
     font-family: Tangerine, Helvetica, sans-serif;
     font-size: 37px;
     color: #105284;
 }
 .apr_invite{
     width: 150px;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 8/10;
     margin-left: 25px;
+    margin-top: 25px;
 }
 .may{
-    grid-column: 3/4;
+    grid-column: 4/5;
     grid-row: 8/10;
     width: 200px;
     margin: 0;
+    margin-top: 25px;
     font-family: Tangerine, Helvetica, sans-serif;
     font-size: 37px;
     color: #105284;
 }
 .stars{
     width: 150px;
-    grid-column: 4/5;
+    grid-column: 5/6;
     grid-row: 8/10;
+    margin-top: 25px;
 }
 .jun{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 10/12;
     width: 200px;
     margin: 0;
@@ -217,14 +222,14 @@ footer p{
 }
 .jun_sisters1{
     width: 150px;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 10/12;
     margin-left: 25px;
     margin-top: 25px;
 }
 .jun_sisters2{
     width: 150px;
-    grid-column: 3/4;
+    grid-column: 4/5;
     grid-row: 10/12;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -278,20 +283,6 @@ footer p{
   position: absolute;
   top: 0;
 }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  float: left;
-}
-
 .active, .dot:hover {
   background-color: #717171;
 }
