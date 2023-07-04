@@ -133,6 +133,7 @@ footer p{
     grid-column: 4/5;
     grid-row: 4/6;
     margin-top: 15px;
+    margin-left: 25px;
 }
 .feb_sisters{
     width: 200px;
@@ -169,6 +170,7 @@ footer p{
     grid-column: 4/5;
     grid-row: 6/8;
     margin-top: 30px;
+    margin-left: 25px;
 }
 .mar_sisters2{
     width: 200px;
@@ -233,6 +235,7 @@ footer p{
     grid-row: 10/12;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 25px;
 }
 * {box-sizing:border-box}
 
@@ -296,4 +299,99 @@ footer p{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.upcoming{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.join{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    color: #105284;
+    font-size: 40px;
+    margin: 25px;
+    font-family: 'Brush Script MT', cursive, Helvetica, sans-serf;
+}
+.jul{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.search{
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+.aug{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.temple{
+    width: 200px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+.sep{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.service{
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.oct{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.centered{
+    width: 200px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-top: 75px;
+}
+.nov{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.gratitude{
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.dec2{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    font-family: Tangerine, Helvetica, sans-serif;
+    font-size: 37px;
+    color: #105284;
+}
+.nativity{
+    width: 200px;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    margin-left: 25px;
+    margin-top: 50px;
 }
