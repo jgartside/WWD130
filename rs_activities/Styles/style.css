@@ -34,19 +34,21 @@ nav{
     font-family: Tangerine, Helvetica, sans-serif;
     font-size: 57px;
     color: #105284;
+    margin: 10px;
+    padding: 10px;
 }
 .activities{
-    margin-top: 50px;
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 400px;
 }
 .committee{
     text-align: center;
     font-family: 'Brush Script MT', cursive;
     color: #105284;
-    font-size: 40px;
+    font-size: 30px;
 }
 footer{
     background-color: #cbb67d;
@@ -245,6 +247,7 @@ footer p{
   max-width: 350px;
   position: relative;
   float: left;
+  margin: 15px;
 }
 
 /* Hide the images by default */
